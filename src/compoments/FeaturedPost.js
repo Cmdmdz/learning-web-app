@@ -54,7 +54,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110769.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120059.jpg"
                                 title="Image title"
 
                             />
@@ -65,7 +65,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110785.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120060.jpg"
                                 title="Image title"
 
                             />
@@ -76,7 +76,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110753.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120061.jpg"
                                 title="Image title"
 
                             />
@@ -87,7 +87,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110778.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120062.jpg"
                                 title="Image title"
 
                             />
@@ -98,7 +98,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110772.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120063.jpg"
                                 title="Image title"
 
                             />
@@ -109,7 +109,7 @@ export default function FeaturedPost(props) {
                         <Card className={classes.card}>
                             <CardMedia
                                 className={classes.cardMedia}
-                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/image/110760.jpg"
+                                image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120064.jpg"
                                 title="Image title"
 
                             />

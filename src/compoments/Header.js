@@ -7,6 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import { makeStyles } from '@material-ui/core/styles';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import Link from '@material-ui/core/Link';
 
 function ElevationScroll(props) {
     const { children, window } = props;
@@ -43,6 +44,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Header(props) {
     const classes = useStyles();
+    const preventDefault = (event) => event.preventDefault();
 
     return (
         <React.Fragment>
@@ -50,15 +52,21 @@ export default function Header(props) {
             <ElevationScroll {...props}>
                 <AppBar >
                     <Toolbar>
-                        <FacebookIcon className={classes.icon} />
+
+                        <FacebookIcon style={{ fontSize: 45 }} className={classes.icon} />
+
                         <Typography variant="h6" color="inherit" noWrap>
-                            Natee Rungsuwan
+                            <Link href="https://web.facebook.com/natee.rung.16?_rdc=1&_rdr"  color="inherit">
+                                Natee Rungsuwan
+                            </Link>
                         </Typography>
+
+
                     </Toolbar>
                 </AppBar>
             </ElevationScroll>
             <Toolbar />
-          
+
         </React.Fragment>
     );
 }

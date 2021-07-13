@@ -3,7 +3,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Markdown from './Markdown';
-
+import './css/Font.css'
 const useStyles = makeStyles((theme) => ({
   img: {
     width: "100%",
@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
     ...theme.typography.body2,
     padding: theme.spacing(2, 0),
   },
+  tpye: {
+    // font-family: 'Mitr', sans-serif;
+    
+  }
 }));
 
 const md = `
@@ -30,10 +34,10 @@ export default function MainFeaturedPost() {
     <>
       <div className={classes.heroContent}>
 
-        <Typography component="h3" variant="h4" align="center" color="textPrimary" gutterBottom>
+        <h1 className="fontGoogle">
           รับซื้อมอเตอร์ไซค์
-        </Typography>
-        <Markdown className={classes.markdown}  >
+          </h1>
+        <Markdown className={classes.markdown} >
           {md}
         </Markdown>
         <div className={classes.heroButtons}>
