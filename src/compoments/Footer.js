@@ -9,8 +9,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="https://www.xn--42cgka3cf0a2ddmcd8g7adbeb4d0gl5qrd4evdd.com/">
+        รับซื้อมอเตอร์ไซค์มือสอง.com
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}

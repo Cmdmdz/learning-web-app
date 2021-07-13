@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -29,20 +28,10 @@ const useStyles = makeStyles((theme) => ({
     },
 
 }));
-const cards = [{
-    ng1: "",
-    ngi2: ""
-}];
-const image = {
-    ng1: "",
-    ng2: "",
-}
 
 
 export default function FeaturedPost(props) {
     const classes = useStyles();
-    const { post } = props;
-
     return (
         <React.Fragment>
             <div>
@@ -56,7 +45,6 @@ export default function FeaturedPost(props) {
                                 className={classes.cardMedia}
                                 image="https://exl-research.s3.ap-northeast-2.amazonaws.com/myImage/120059.jpg"
                                 title="Image title"
-
                             />
                         </Card>
 
@@ -124,7 +112,3 @@ export default function FeaturedPost(props) {
         </React.Fragment>
     );
 }
-
-FeaturedPost.propTypes = {
-    post: PropTypes.object,
-};

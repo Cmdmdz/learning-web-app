@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Header(props) {
     const classes = useStyles();
-    const preventDefault = (event) => event.preventDefault();
+    
 
     return (
         <React.Fragment>
@@ -52,16 +52,12 @@ export default function Header(props) {
             <ElevationScroll {...props}>
                 <AppBar >
                     <Toolbar>
-
                         <FacebookIcon style={{ fontSize: 45 }} className={classes.icon} />
-
                         <Typography variant="h6" color="inherit" noWrap>
                             <Link href="https://web.facebook.com/natee.rung.16?_rdc=1&_rdr"  color="inherit">
                                 Natee Rungsuwan
                             </Link>
                         </Typography>
-
-
                     </Toolbar>
                 </AppBar>
             </ElevationScroll>
