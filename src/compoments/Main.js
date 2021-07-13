@@ -30,7 +30,7 @@ const content = `
 3.  แจ้งสถานที่ดูรถว่ารถอยู่ที่ไหน พร้อมราคาที่ต้องการขายมาได้เลยครับ
 
 ## ส่งรายละเอียดมาได้ที่ช่องทางดังต่อไปนี้
-- โทร. [093-094-539](/) K. Natee
+- โทร. [093-094-5939](/) K. Natee
 - [Line](https://line.me/ti/p/Deg9nnhaih)
 - [Facebook](https://web.facebook.com/natee.rung.16)
 
